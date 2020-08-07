@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim');
+header {
+    background-image: linear-gradient(black, gray);
+    color: white;
+    box-shadow: 0px 10px 30px black;
+    height: min-content;
+    width: 100%;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1 {
+    font-family: 'Anaheim', ans serif;
+    float: left;
+    font-size: 22px;
+    padding-left: 2%;
+    cursor: default;
+}
+
+nav {
+    float: right;
+    padding-right: 2%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 35px;
+}
+
+nav a {
+    color: white;
+    font-family: 'Anaheim', sans-serif;
+    text-decoration: none;
+    border-radius: 20px;
+    height: 120%;
+    width: 120%;
+    text-align: center;
+    display: block;
+}
+
+nav a:hover {
+    background-color: gray;
+    transition: all ease-in-out 750ms;
+}
+
+body {
+    margin: 0;
+    background: url('../images/frong.png') no-repeat fixed;
+    background-size: 120%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-base {
+    background-color: peachpuff;
+    width: 350px;
+    height: 500px;
+    margin: 50px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.box-base {
+    display: flex;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: -25px;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: #fcfba7
+}
+
+.img-base {
+    height: 300px;
+    width: 350px;
+    border-radius: 40px;
+}
+
+.img-one {
+    background: url('../images/bugs.jpg');
+    background-size: 100%;
+}
+
+.img-two {
+    background: url('../images/lefa.jpg') no-repeat;
+    background-size: 100%;
+}
+
+.img-three {
+    background: url('../images/cook.jpg');
+    background-size: 150%;
+    background-position-y: 300px;
+}
